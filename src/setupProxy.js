@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const options = {
-    target: 'http://bac-1.herokuapp.com',
+    target: 'http://bac-1.herokuapp.com/',
     changeOrigin: true,
 }
 
